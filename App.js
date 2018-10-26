@@ -19,6 +19,7 @@ export default class App extends Component {
       }
     };
   }
+  // TODO: check of other devices 
   componentDidMount() {
     navigator.geolocation.getCurrentPosition(
       position => {
@@ -59,7 +60,14 @@ export default class App extends Component {
         provider={PROVIDER_GOOGLE}
         style={styles.container}
         showsUserLocation={true}
-        region={this.state.region}
+        initialRegion={{
+          latitude: 37.78825,
+          longitude: -122.4324,
+          latitudeDelta: 0.0922,
+          longitudeDelta: 0.0421,
+        }}
+        // current location settings:
+        // region={this.state.region}
         onRegionChange={region => this.setState({ region })}
         onRegionChangeComplete={region => this.setState({ region })}
       >

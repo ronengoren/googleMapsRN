@@ -37,7 +37,7 @@
 		2DCD954D1E0B4F2C00145EB5 /* googleMapsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* googleMapsTests.m */; };
 		2DF0FFEE2056DD460020B375 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DAD3EA31DF850E9000B6D8A /* libReact.a */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
-		879B60932183995000872284 /* libAirMaps.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 879B60922183993600872284 /* libAirMaps.a */; };
+		879B60A921839B8500872284 /* libAirMaps.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 879B60A821839B7700872284 /* libAirMaps.a */; };
 		ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBDB9271DFEBF0700ED6528 /* libRCTBlob.a */; };
 		B1A65FD573FC2C6EED10F9E7 /* libPods-googleMaps.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 272B6BFFE5A2525E627BFF47 /* libPods-googleMaps.a */; };
 /* End PBXBuildFile section */
@@ -309,9 +309,9 @@
 			remoteGlobalIDString = 58B5119B1A9E6C1200147676;
 			remoteInfo = RCTText;
 		};
-		879B60912183993600872284 /* PBXContainerItemProxy */ = {
+		879B60A721839B7700872284 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 879B608D2183993600872284 /* AirMaps.xcodeproj */;
+			containerPortal = 879B60A321839B7700872284 /* AirMaps.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 11FA5C511C4A1296003AC2EE;
 			remoteInfo = AirMaps;
@@ -354,7 +354,7 @@
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
 		879B6067218394EA00872284 /* Location.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Location.gpx; sourceTree = "<group>"; };
-		879B608D2183993600872284 /* AirMaps.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = AirMaps.xcodeproj; path = "../node_modules/react-native-maps/lib/ios/AirMaps.xcodeproj"; sourceTree = "<group>"; };
+		879B60A321839B7700872284 /* AirMaps.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = AirMaps.xcodeproj; path = "../node_modules/react-native-maps/lib/ios/AirMaps.xcodeproj"; sourceTree = "<group>"; };
 		ADBDB91F1DFEBF0600ED6528 /* RCTBlob.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTBlob.xcodeproj; path = "../node_modules/react-native/Libraries/Blob/RCTBlob.xcodeproj"; sourceTree = "<group>"; };
 		AF3A9677BEAC09C95D78BBD1 /* Pods-googleMaps.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-googleMaps.release.xcconfig"; path = "Pods/Target Support Files/Pods-googleMaps/Pods-googleMaps.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -383,9 +383,9 @@
 				139105C61AF99C1200B5F7CC /* libRCTSettings.a in Frameworks */,
 				832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */,
 				00C302EA1ABCBA2D00DB3ED1 /* libRCTVibration.a in Frameworks */,
+				879B60A921839B8500872284 /* libAirMaps.a in Frameworks */,
 				139FDEF61B0652A700C62182 /* libRCTWebSocket.a in Frameworks */,
 				B1A65FD573FC2C6EED10F9E7 /* libPods-googleMaps.a in Frameworks */,
-				879B60932183995000872284 /* libAirMaps.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -570,7 +570,7 @@
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
-				879B608D2183993600872284 /* AirMaps.xcodeproj */,
+				879B60A321839B7700872284 /* AirMaps.xcodeproj */,
 				5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */,
 				146833FF1AC3E56700842450 /* React.xcodeproj */,
 				00C302A71ABCB8CE00DB3ED1 /* RCTActionSheet.xcodeproj */,
@@ -623,10 +623,10 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		879B608E2183993600872284 /* Products */ = {
+		879B60A421839B7700872284 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				879B60922183993600872284 /* libAirMaps.a */,
+				879B60A821839B7700872284 /* libAirMaps.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -754,8 +754,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = 879B608E2183993600872284 /* Products */;
-					ProjectRef = 879B608D2183993600872284 /* AirMaps.xcodeproj */;
+					ProductGroup = 879B60A421839B7700872284 /* Products */;
+					ProjectRef = 879B60A321839B7700872284 /* AirMaps.xcodeproj */;
 				},
 				{
 					ProductGroup = 00C302A81ABCB8CE00DB3ED1 /* Products */;
@@ -1069,11 +1069,11 @@
 			remoteRef = 832341B41AAA6A8300B99B32 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		879B60922183993600872284 /* libAirMaps.a */ = {
+		879B60A821839B7700872284 /* libAirMaps.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libAirMaps.a;
-			remoteRef = 879B60912183993600872284 /* PBXContainerItemProxy */;
+			remoteRef = 879B60A721839B7700872284 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		ADBDB9271DFEBF0700ED6528 /* libRCTBlob.a */ = {
