@@ -121,6 +121,8 @@
 		8540CDB8F572BFFEAAA8BF2F2A07D298 /* AIRMapPolygonManager.h in Headers */ = {isa = PBXBuildFile; fileRef = F2D903E9CD34E12F417206BB631F82B3 /* AIRMapPolygonManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		8612AD6774C51FCAB12F68BC8D974088 /* vlog_is_on.cc in Sources */ = {isa = PBXBuildFile; fileRef = 213B03144908AAA077C197FA7EC35ECE /* vlog_is_on.cc */; };
 		87499EB4A23C7A5AFF82D0D16BE22A04 /* RCTConvert+GMSMapViewType.h in Headers */ = {isa = PBXBuildFile; fileRef = 005177BF8DA4EFE3829835CAEC2F7157 /* RCTConvert+GMSMapViewType.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		879B60652183923A00872284 /* GMULineString.h in Headers */ = {isa = PBXBuildFile; fileRef = 27ABFA12688781FFB5B25BFE136CC3CC /* GMULineString.h */; };
+		879B60662183923B00872284 /* GMULineString.h in Headers */ = {isa = PBXBuildFile; fileRef = 27ABFA12688781FFB5B25BFE136CC3CC /* GMULineString.h */; };
 		888A3DE72739C2A719C2F013F21710D7 /* bignum.h in Headers */ = {isa = PBXBuildFile; fileRef = C3588A61F303EDB1E858F0B9440DA479 /* bignum.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		8B1524084F8795798F35657A59EB7906 /* AIRGMSMarker.m in Sources */ = {isa = PBXBuildFile; fileRef = B66AD31C9C7A1D60CA0921FB5F8FC9D6 /* AIRGMSMarker.m */; settings = {COMPILER_FLAGS = "-DHAVE_GOOGLE_MAPS=1 -DHAVE_GOOGLE_MAPS_UTILS=1 -fno-modules"; }; };
 		8B2F9E59F4C68ADCEA56C8631B1E3460 /* GQTPointQuadTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 978FDAFAE99B14B9AB52605568367DB8 /* GQTPointQuadTree.m */; settings = {COMPILER_FLAGS = "-fno-modules"; }; };
@@ -2735,6 +2737,7 @@
 				A964420D95BA0758B070BC78E4BB6056 /* AIRMapCalloutManager.h in Headers */,
 				3688B180D4B180B098B29DA5752A0375 /* AIRMapCircle.h in Headers */,
 				7F5EBC55FF37BFA4E9A60028A989B6D6 /* AIRMapCircleManager.h in Headers */,
+				879B60652183923A00872284 /* GMULineString.h in Headers */,
 				B2305D3797EBF699BF9A210444B4EDD9 /* AIRMapCoordinate.h in Headers */,
 				C207FF4D944B9D1F06CC4DEF044E9B9F /* AIRMapLocalTile.h in Headers */,
 				AEC56075EB38E5B65982C42839651F8F /* AIRMapLocalTileManager.h in Headers */,
@@ -2775,6 +2778,7 @@
 				A9449ECDD3F187FD63596D34FB7B2F49 /* AIRGoogleMapMarker.h in Headers */,
 				63EACEC8C31F96A956C55D3B07EEAB35 /* AIRGoogleMapMarkerManager.h in Headers */,
 				F5041327AC34EFEFB470D35ECF8C75B6 /* AIRGoogleMapOverlay.h in Headers */,
+				879B60662183923B00872284 /* GMULineString.h in Headers */,
 				0C8421C8B8B7AC2C89FF61DB6D2EEB8C /* AIRGoogleMapOverlayManager.h in Headers */,
 				A14DD9C38093C604B0F3278E89E6D2CA /* AIRGoogleMapPolygon.h in Headers */,
 				2538254B811F208D756B934A546F0C40 /* AIRGoogleMapPolygonManager.h in Headers */,
